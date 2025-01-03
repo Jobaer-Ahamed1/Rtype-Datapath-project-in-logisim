@@ -35,8 +35,11 @@ Control signals route data through the datapath.
 Observe the ALU operation and result stored in the destination register.
 #### Example Simulation
 Instruction: ADD $t1, $t2, $t3
+
 Input: $t2 = 5, $t3 = 10
+
 Output: $t1 = 15
+
 The simulation demonstrates how operands are fetched, processed in the ALU, and the result is written back.
 
 
