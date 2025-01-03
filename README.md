@@ -27,6 +27,16 @@ Register inputs are selected and routed to the ALU.
 ALU performs operations based on control signals.
 #### Write-back:
 ALU results are written back to the appropriate register.
-The design adheres to the MIPS architecture principles, ensuring clarity and modularity.
+The design adheres to the MIPS architecture principles, ensuring clarity and modularity. 
+
+#### How It Works
+Load R-type instructions (e.g., ADD, SUB) into the instruction fetch unit.
+Control signals route data through the datapath.
+Observe the ALU operation and result stored in the destination register.
+#### Example Simulation
+Instruction: ADD $t1, $t2, $t3
+Input: $t2 = 5, $t3 = 10
+Output: $t1 = 15
+The simulation demonstrates how operands are fetched, processed in the ALU, and the result is written back.
 
 
