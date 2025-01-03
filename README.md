@@ -4,11 +4,18 @@ This is a academic project of computer Architecture Lab course
 This repository contains a project for simulating an R-type datapath using Logisim. It was developed as part of a Computer Architecture Lab course to demonstrate the core working principles of R-type instructions in a simplified CPU design.
 
 ### Project Overview
-The R-type datapath is a fundamental part of a CPU architecture, used to execute arithmetic and logical operations. This project implements the datapath components, including the connections between:
+The R-type datapath is a fundamental part of a CPU architecture, used to execute arithmetic and logical operations.
+
+#### Tools Used
+This project utilized the following tool for design and simulation:
+
+Logisim: A free, educational tool for designing and simulating digital logic circuits. Version 2.7.1 was used to create and test the R-type datapath.
+
+## This project implements the datapath components, including the connections between:
 
 #### ALU (Arithmetic Logic Unit): Performs operations such as addition, subtraction, and bitwise logic.
 #### Register File: Manages input and output registers for operations.
-Control Signals: Direct the flow of data and operations in the datapath.
+#### Control Signals: Direct the flow of data and operations in the datapath.
 Features
 #### Logisim Design: Fully functional R-type datapath simulated in Logisim.
 #### Components Used:
